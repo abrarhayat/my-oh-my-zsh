@@ -40,7 +40,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 This will:
-- Backup your existing `.zshrc`
+
+- Backup your existing `.zshrc` to `~/.zshrc.pre-oh-my-zsh` (your previous config flows through to this file)
 - Create a new `~/.zshrc` with sane defaults
 - Set the default theme to `robbyrussell`
 
