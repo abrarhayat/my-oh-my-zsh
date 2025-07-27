@@ -87,22 +87,27 @@ source ~/.zshrc
 
 ---
 
-## 📦 Optional: Useful Tools
+## 📦 Other Plugins I am using at the moment
 
-- **`zsh-autosuggestions`** – Suggests commands as you type.
-- **`zsh-syntax-highlighting`** – Highlights command syntax.
-
-Install with:
-
+🔹 **`zsh-autosuggestions`** – Suggests commands as you type.
+  
 ```sh
-brew install zsh-autosuggestions zsh-syntax-highlighting
+brew install zsh-autosuggestions
 ```
 
-Then add the following to the end of your `.zshrc`:
+---
+🔹 **`zsh-syntax-highlighting`** – Highlights command syntax.
 
 ```sh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+brew install zsh-syntax-highlighting
+```
+
+---
+
+Then run the following after you've installed the plugins:
+
+```sh
+source ~/.zshrc
 ```
 
 ---
