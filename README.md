@@ -52,7 +52,7 @@ This will:
 You can edit your config with:
 
 ```sh
-nano ~/.zshrc
+vi ~/.zshrc
 ```
 
 Some options to explore:
