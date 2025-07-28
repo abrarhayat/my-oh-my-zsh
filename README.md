@@ -92,14 +92,14 @@ source ~/.zshrc
 🔹 **`zsh-autosuggestions`** – Suggests commands as you type.
   
 ```sh
-brew install zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 ---
 🔹 **`zsh-syntax-highlighting`** – Highlights command syntax.
 
 ```sh
-brew install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 ---
